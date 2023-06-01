@@ -1,0 +1,117 @@
+  .topnav {
+  background-color: #3333;
+  overflow: hidden;}
+
+/* Стиль ссылок внутри панели навигации */
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;}
+
+/* Изменение цвета ссылок при наведении курсора */
+.topnav a:hover {
+  background-color: #ddd;
+  color: purple;}
+
+ /* Добавить активный класс, чтобы выделить текущую страницу */
+.topnav a.active {
+  background-color: #120a8f;
+  color: white;}
+
+ul {
+    position: sticky;
+    top: 0;
+}
+
+ /* Скрыть ссылку, которая должна открывать и закрывать верхнюю навигационную панель на небольших экранах */
+.topnav .icon {
+  display: none;}
+
+h1, h2, h3, h4 {color: white;
+text-align:center;
+}
+
+.rounded {
+counter-reset: li;
+list-style: none;
+font: 14px "Trebuchet MS", "Lucida Sans";
+padding: 0;
+text-shadow: 0 1px 0 rgba(255,255,255,.5);
+margin: 10px 350px 20px 250px;
+}
+.rounded a {
+position: relative;
+display: block;
+
+padding: .4em .4em .4em 2em;
+margin: .5em 0;
+background: #DAD2CA;
+color: #444;
+text-decoration: none;
+border-radius: .3em;
+transition: .3s ease-out;
+}
+.rounded a:hover {background: #E9E4E0;}
+.rounded a:hover:before {transform: rotate(360deg);}
+.rounded a:before {
+content: counter(li);
+counter-increment: li;
+position: absolute;
+left: -1.3em;
+top: 50%;
+margin-top: -1.3em;
+background: #8FD4C1;
+height: 2em;
+width: 2em;
+line-height: 2em;
+border: .3em solid white;
+text-align: center;
+font-weight: bold;
+border-radius: 2em;
+transition: all .3s ease-out;
+}
+
+li {color: white
+}
+
+P{color: white;
+padding: 10px 190px 10px 190px;
+font-size: 30px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  }
+
+dl {color: white;
+     /* Сверху | Справа | Снизу | Слева */
+    padding: 5px 190px 5px 190px;
+    font-size: 30px}
+
+h2{font-size: 40px;}
+h3{font-size: 30px;}
+figcaption{
+            color: white;
+            padding: 15px 0px 0px 700px;}
+
+ul {
+    position: static;
+    top: 0;
+    padding: 10px 190px 10px 190px;
+    font-size: 26px;}
+
+ol {
+    position: static;
+    top: 0;
+    padding: 5px 190px 10px 220px;
+    font-size: 26px;}
+
+
+
+

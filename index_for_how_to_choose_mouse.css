@@ -1,0 +1,44 @@
+.topnav {
+  background-color: #3333;
+  overflow: hidden;}
+
+/* Стиль ссылок внутри панели навигации */
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;}
+
+/* Изменение цвета ссылок при наведении курсора */
+.topnav a:hover {
+  background-color: #ddd;
+  color: purple;}
+
+ /* Добавить активный класс, чтобы выделить текущую страницу */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;}
+
+ul {
+    position: sticky;
+    top: 0;
+}
+
+ /* Скрыть ссылку, которая должна открывать и закрывать верхнюю навигационную панель на небольших экранах */
+.topnav .icon {
+  display: none;}
+
+h1, h2, h3, h4 {color: white;
+text-align:center;
+}
+
+
+
+P{color: white;
+padding: 20px 190px 15px 190px;
+font-size: 30px;
+}

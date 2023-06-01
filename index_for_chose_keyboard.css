@@ -1,0 +1,113 @@
+.topnav {
+  background-color: #3333;
+  overflow: hidden;}
+
+/* Стиль ссылок внутри панели навигации */
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;}
+
+/* Изменение цвета ссылок при наведении курсора */
+.topnav a:hover {
+  background-color: #ddd;
+  color: purple;}
+
+ /* Добавить активный класс, чтобы выделить текущую страницу */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;}
+
+ul {
+    position: sticky;
+    top: 0;
+}
+
+ /* Скрыть ссылку, которая должна открывать и закрывать верхнюю навигационную панель на небольших экранах */
+.topnav .icon {
+  display: none;}
+
+h1, h2, h3, h4 {color: white;
+text-align:center;
+}
+
+
+.rectangle {
+counter-reset: li;
+list-style: none;
+font: 16px "Trebuchet MS", "Lucida Sans";
+margin: 10px 160px 20px;;
+text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+.rectangle a {
+position: relative;
+display: block;
+
+padding: .4em .4em .4em .8em;
+margin: .5px 0 .5em 2.5em;
+background: #D3D4DA;
+color: #444;
+text-decoration: none;
+transition: all .1s ease-out;
+}
+.rectangle a:hover {background: #DCDDE1;}
+.rectangle a:before {
+content: counter(li);
+counter-increment: li;
+position: absolute;
+left: -2.5em;
+top: 50%;
+margin-top: -1em;
+margin-right: 10px;
+background: #9097A2;
+height: 2em;
+width: 2em;
+line-height: 2em;
+text-align: center;
+font-weight: bold;
+}
+.rectangle a:after {
+position: absolute;
+content: "";
+border: .5em solid transparent;
+left: -4em;
+top: 50%;
+margin-top: -.5em;
+transition: all .3s ease-out;
+}
+.rectangle a:hover:after {
+left: -.5em;
+border-left-color: #9097A2;
+}
+
+li {color: white
+}
+
+P{color: white;
+padding: 20px 190px 15px 190px;
+font-size: 30px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  }
+
+dl {color: white;
+     /* Сверху | Справа | Снизу | Слева */
+    padding: 5px 190px 5px 190px;
+    font-size: 30px}
+h2{font-size: 40px;}
+
+h1 {font-size: 65px}
+
+ul {
+    position: static;
+    top: 0;
+    padding: 10px 190px 10px 190px;
+    font-size: 25px;}
